@@ -1,0 +1,126 @@
+
+<html>
+<head>
+    <title>Bright Future University</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <h1>Bright Future University</h1>
+    <p>Learn Today, Lead Tomorrow</p>
+</header>
+
+<nav>
+    <a href="#home">Home</a>
+    <a href="#about">About</a>
+    <a href="#departments">Departments</a>
+    <a href="#programs">Programs</a>
+    <a href="#admission">Admission</a>
+</nav>
+
+<section id="home">
+    <h2>Welcome to Our University</h2>
+    <p>Build your future with quality education.</p>
+<img src="images/campus.jpg" width="400">
+    <button onclick="showWelcome()">Click Here</button>
+</section>
+
+<section id="about">
+    <h2>About Us</h2>
+    <p>Bright Future University provides quality education
+    and helps students achieve their goals.</p>
+<img src="images/lib.jpg" width="400">
+</section>
+
+<section id="departments">
+    <h2>Our Departments</h2>
+
+    <ul>
+        <li>Computer Science</li>
+        <li>Artificial Intelligence</li>
+        <li>Business Administration</li>
+        <li>Electrical Engineering</li>
+        <li>Mathematics</li>
+    </ul>
+</section>
+
+<section id="programs">
+    <h2>Academic Programs</h2>
+
+    <table border="1">
+        <tr>
+            <th>Program</th>
+            <th>Duration</th>
+            <th>Degree</th>
+        </tr>
+
+        <tr>
+            <td>Computer Science</td>
+            <td>4 Years</td>
+            <td>BSCS</td>
+        </tr>
+
+        <tr>
+            <td>Artificial Intelligence</td>
+            <td>4 Years</td>
+            <td>BSAI</td>
+        </tr>
+
+        <tr>
+            <td>Business Administration</td>
+            <td>4 Years</td>
+            <td>BBA</td>
+        </tr>
+
+        <tr>
+            <td>Electrical Engineering</td>
+            <td>4 Years</td>
+            <td>BSEE</td>
+        </tr>
+    </table>
+</section>
+
+<section id="admission">
+    <h2>Admission Inquiry Form</h2>
+
+    <form>
+        <label>Name:</label>
+        <input type="text" placeholder="Enter your name" required>
+
+        <label>Email:</label>
+        <input type="email" placeholder="Enter your email" required>
+
+        <label>Contact Number:</label>
+        <input type="tel" placeholder="Enter contact number" required>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+
+        <br><br>
+
+        <label>Select Program:</label>
+
+        <select>
+            <option>Computer Science</option>
+            <option>Artificial Intelligence</option>
+            <option>BBA</option>
+            <option>Electrical Engineering</option>
+        </select>
+
+        <br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<footer>
+    <p>Copyright 2026 Bright Future University</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
